@@ -24,14 +24,14 @@ function Footer() {
               <div className="divider"></div>
               <div className="item-body">
                 <div className="item-duble-box">
-                  <a href='' className="item">Important Date</a>
-                  <a href='' className="item">Apply Online</a>
-                  <a href='' className="item">How to Apply</a>
+                  <a href='#' className="item">Important Date</a>
+                  <a href='#' className="item">Apply Online</a>
+                  <a href='#' className="item">How to Apply</a>
                 </div>
                 <div className="item-duble-box">
-                  <a href='' className="item">Admission Process</a>
-                  <a href='' className="item">FAQ’s</a>
-                  <a href='' className="item">Important Contacts</a>
+                  <a href='#' className="item">Admission Process</a>
+                  <a href='#' className="item">FAQ’s</a>
+                  <a href='#' className="item">Important Contacts</a>
                 </div>
               </div>
             </div>
@@ -41,9 +41,9 @@ function Footer() {
               <div className="divider"></div>
               <div className="item-body">
                 <div className="item-duble-box">
-                  <a href='' className="item">About Us</a>
-                  <a href='' className="item">Why BIMHRD</a>
-                  <a href='' className="item">Leadership</a>
+                  <a href='#' className="item">About Us</a>
+                  <a href='#' className="item">Why BIMHRD</a>
+                  <a href='#' className="item">Leadership</a>
                 </div>
               </div>
             </div>
@@ -53,9 +53,9 @@ function Footer() {
               <div className="divider"></div>
               <div className="item-body">
                 <div className="item-duble-box">
-                  <a href='' className="item">Placement Reports</a>
-                  <a href='' className="item">Why recruit at  BIMHRD</a>
-                  <a href='' className="item">Recruitment Brochure</a>
+                  <a href='#' className="item">Placement Reports</a>
+                  <a href='#' className="item">Why recruit at  BIMHRD</a>
+                  <a href='#' className="item">Recruitment Brochure</a>
                 </div>
               </div>
             </div>
@@ -64,9 +64,9 @@ function Footer() {
               <h5 className="item-title">Connect</h5>
               <div className="divider"></div>
               <div className="item-body">
-                <a href='' className="item"><FaFacebook className='icon'/></a>
-                <a href='' className="item"><FaInstagramSquare className='icon'/></a>
-                <a href='' className="item"><FaLinkedin className='icon'/></a>
+                <a href='#' className="item"><FaFacebook className='icon'/></a>
+                <a href='#' className="item"><FaInstagramSquare className='icon'/></a>
+                <a href='#' className="item"><FaLinkedin className='icon'/></a>
               </div>
             </div>
 
