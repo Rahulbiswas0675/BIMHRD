@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+
+
+
+.home-component {
+    width: 100%;
+    position: relative;
+
+    .video {
+        width: 100%;
+    }
+
+    .home-container {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 99.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000b3;
+
+        .home-inner-component {
+            width: 90%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            .home-items-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+
+                .title {
+                    margin: 0;
+                    color: $whiteColor;
+                    font-family: $secendoryFont;
+                    font-size: 128px;
+                    font-weight: 600;
+                }
+
+                .tags {
+                    margin: 0;
+                    color: $whiteColor;
+                    font-family: $secendoryFont;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+
+                .admissions-btn {
+                    margin-top: 1rem;
+                    color: $whiteColor;
+                    font-family: $primaryFont;
+                    font-size: 24px;
+                    font-weight: 600;
+                    width: 298px;
+                    height: 55px;
+                    border: none;
+                    background: $redColor;
+
+                    .arrow-icon {
+                        color: $whiteColor;
+                        font-size: 24px;
+                    }
+                }
+            }
+
+            .scroll-btn {
+                bottom: 15%;
+                position: absolute;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1660px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    gap: 1.5rem;
+
+                    .title {
+                        font-size: 80px;
+                    }
+
+                    .tags {
+                        font-size: 28px;
+                    }
+
+                    .admissions-btn {
+                        font-size: 24px;
+                        width: 298px;
+                        height: 55px;
+
+                        .arrow-icon {
+                            font: 24px;
+                        }
+                    }
+                }
+
+                .scroll-btn {
+                    bottom: 10%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    gap: 1.5rem;
+
+                    .title {
+                        font-size: 60px;
+                    }
+
+                    .tags {
+                        font-size: 24px;
+                    }
+
+                    .admissions-btn {
+                        margin-top: 1rem;
+                        font-size: 20px;
+                        width: 250px;
+                        height: 50px;
+
+                        .arrow-icon {
+                            font: 24px;
+                        }
+                    }
+                }
+
+                .scroll-btn {
+                    bottom: 10%;
+                    width: 60px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1080px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    gap: 1.5rem;
+
+                    .title {
+                        font-size: 40px;
+                    }
+
+                    .tags {
+                        font-size: 20px;
+                    }
+
+                    .admissions-btn {
+                        margin-top: 1rem;
+                        font-size: 18px;
+                        width: 240px;
+                        height: 50px;
+
+                        .arrow-icon {
+                            font: 24px;
+                        }
+                    }
+                }
+
+                .scroll-btn {
+                    bottom: 10%;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    gap: 1rem;
+
+                    .title {
+                        font-size: 30px;
+                    }
+
+                    .tags {
+                        font-size: 16px;
+                    }
+
+                    .admissions-btn {
+                        margin-top: 0;
+                        font-size: 16px;
+                        width: 220px;
+                        height: 40px;
+
+                        .arrow-icon {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                .scroll-btn {
+                    bottom: 10%;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    margin-top: 2rem;
+                    gap: 0.9rem;
+
+                    .title {
+                        font-size: 26px;
+                    }
+
+                    .tags {
+                        font-size: 16px;
+                    }
+
+                    .admissions-btn {
+                        font-size: 16px;
+                        width: 200px;
+                        height: 35px;
+                        .arrow-icon {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                .scroll-btn {
+                    bottom: 7%;
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    margin-top: 3rem;
+                    .title {
+                        font-size: 20px;
+                    }
+                    .tags {
+                        font-size: 14px;
+                    }
+
+                    .admissions-btn {
+                        font-size: 12px;
+                        width: 150px;
+                        height: 30px;
+                        .arrow-icon {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .home-component {
+        .home-container {
+            .home-inner-component {
+                .home-items-container {
+                    margin-top: 3.5rem;
+
+                    .title {
+                        font-size: 18px;
+                    }
+
+                    .tags {
+                        font-size: 12px;
+                    }
+
+                    .admissions-btn {
+                        font-size: 10px;
+                        width: 130px;
+                        height: 25px;
+
+                        .arrow-icon {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

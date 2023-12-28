@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+
+
+
+.contact-component {
+    width: 100%;
+    background: linear-gradient(90deg, #3A3285 3.08%, #E31E24 98.72%);
+
+    .contact-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .contactImg {
+            width: 46%;
+        }
+
+        .form-container {
+            width: 51%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.5rem;
+
+            .title {
+                color: $whiteColor;
+                font-family: $secendoryFont;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 102.1%;
+            }
+
+            .para {
+                color: $whiteColor;
+                font-family: $primaryFont;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 155.6%;
+            }
+
+            .form {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .input-box {
+                    display: flex;
+                    align-items: center;
+                    gap: 1.5rem;
+
+                    .input-field {
+                        padding: 2px 16px;
+                        width: 349px;
+                        height: 40px;
+                        font-family: $primaryFont;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $whiteColor;
+                        border-radius: 20px;
+                        border: 0.5px solid rgba(255, 255, 255, 0.10);
+                        background: rgba(255, 255, 255, 0.20);
+                    }
+
+                    .input-field:focus {
+                        outline: none;
+                    }
+
+                    .input-field::-webkit-inner-spin-button {
+                        display: none;
+                    }
+
+                    .submit-btn {
+                        width: 128px;
+                        height: 40px;
+                        border-radius: 20px;
+                        background: $whiteColor;
+                        color: $redColor;
+                        font-family: $primaryFont;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 155.6%;
+                        border: none;
+                    }
+                }
+
+                .checkbox {
+                    margin-top: 1rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    color: $whiteColor;
+                    font-family: $primaryFont;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 155.6%;
+
+                    .checkinput {
+                        width: 15px;
+                        height: 15px;
+                        border: none;
+                        border-radius: 7px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width : 1660px) {
+    .contact-component {
+        .contact-container {
+            .contactImg {
+                width: 40%;
+            }
+
+            .form-container {
+                width: 60%;
+
+                .title {
+                    margin: 0;
+                    font-size: 44px;
+                }
+
+                .para {
+                    margin: 0;
+                    font-size: 24px;
+                }
+
+                .form {
+                    .input-box {
+                        gap: 1rem;
+
+                        .input-field {
+                            width: 300px;
+                        }
+
+                        .submit-btn {
+                            width: 128px;
+                        }
+                    }
+
+                    .checkbox {
+                        margin-top: 1rem;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .contact-component {
+        .contact-container {
+            margin-top: 5rem;
+
+            .contactImg {
+                width: 40%;
+            }
+
+            .form-container {
+                width: 60%;
+                margin: 3rem 0;
+
+                .title {
+                    margin: 0;
+                    font-size: 34px;
+                }
+
+                .para {
+                    margin: 0;
+                    font-size: 20px;
+                }
+
+                .form {
+                    .input-box {
+                        gap: 1rem;
+
+                        .input-field {
+                            width: 300px;
+                        }
+
+                        .submit-btn {
+                            width: 128px;
+                        }
+                    }
+
+                    .checkbox {
+                        margin-top: 1rem;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width : 1280px) {
+    .contact-component {
+        .contact-container {
+            .contactImg {
+                width: 35%;
+            }
+
+            .form-container {
+                width: 65%;
+                gap: 0.5rem;
+
+                .title {
+                    margin: 0;
+                    font-size: 30px;
+                }
+
+                .para {
+                    margin: 0;
+                    font-size: 18px;
+                }
+
+                .form {
+                    gap: 0.5rem;
+
+                    .input-box {
+                        gap: 0.5rem;
+
+                        .input-field {
+                            width: 300px;
+                        }
+
+                        .submit-btn {
+                            width: 128px;
+                        }
+                    }
+
+                    .checkbox {
+                        margin-top: 0.5rem;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .contact-component {
+        .contact-container {
+            .contactImg {
+                width: 40%;
+            }
+
+            .form-container {
+                width: 59%;
+
+                .form {
+                    gap: 0.5rem;
+
+                    .input-box {
+                        gap: 0.5rem;
+                        flex-wrap: wrap;
+                    }
+
+                    .checkbox {
+                        margin-top: 0.5rem;
+                        font-size: 12px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1080px) {
+    .contact-component {
+        .contact-container {
+            margin: 0;
+
+            .contactImg {
+                width: 45%;
+            }
+
+            .form-container {
+                width: 54%;
+
+                .form {
+                    gap: 0.5rem;
+
+                    .input-box {
+                        gap: 0.5rem;
+                        flex-wrap: wrap;
+                    }
+
+                    .checkbox {
+                        margin-top: 0.5rem;
+                        font-size: 12px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

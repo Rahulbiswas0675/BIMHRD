@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+
+
+.about-component {
+    margin-top: -0.4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $violetColor;
+
+    .about-container {
+        width: 53%;
+        margin: 8rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        .paragraph {
+            color: $whiteColor;
+            text-align: center;
+            font-family: $primaryFont;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 183.4%;
+        }
+
+        .highlight {
+            font-weight: 700;
+        }
+
+        .hrefBtn {
+            margin-top: 2rem;
+            color: $whiteColor;
+            font-family: $secendoryFont;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 700;
+        }
+
+    }
+}
+
+@media screen and (max-width : 1660px) {
+    .about-component {
+        .about-container {
+            width: 65%;
+        }
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .about-component {
+        .about-container {
+            width: 75%;
+        }
+    }
+}
+@media screen and (max-width : 1250px) {
+    .about-component {
+        .about-container {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width : 1080px) {
+    .about-component {
+        .about-container {
+            width: 90%;
+        }
+    }
+}
+@media screen and (max-width : 900px) {
+    .about-component {
+        .about-container {
+            .paragraph {
+                font-size: 16px;
+                line-height: 183.4%;
+            }
+            .hrefBtn{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .about-component {
+        .about-container {
+            .paragraph {
+                font-size: 14px;
+            }
+            .hrefBtn{
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media screen and (max-width : 450px) {
+    .about-component {
+        .about-container {
+            margin: 6rem 0;
+            .paragraph {
+                font-size: 12px;
+            }
+            .hrefBtn{
+                font-size: 12px;
+            }
+        }
+    }
+}

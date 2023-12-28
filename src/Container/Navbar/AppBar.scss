@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$primary_color : "#41B6B6";
+$secondery_color : "#ECF8F8";
+$white_color : "#FFFFFF";
+$backgroung_color : "#F9FAFC";
+$primary_text_color : "#111111";
+$secondery_text_color : "#666666";
+$brand_color : '#333333';
+$primary_font : "'Montserrat', sans-serif";
+
+.darkBG{
+    background-color: $blackColor !important;
+    transition: 1s;
+}
+.lightBG{
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%); 
+    transition: 1s;
+}
+.navbar {
+    width: 100%;
+    height: 120px;
+    z-index: 1000;
+    top: 0;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%); 
+    position: fixed !important;
+    
+    .box-container {
+        width: 95%;
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            height: 63px;
+        }
+
+        .href-item {
+            font-size: 16px;
+            font-family: $primaryFont;
+            font-weight: 700;
+            color: $whiteColor;
+        }
+
+        .apply-btn {
+            margin: 0;
+            width: 170px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: $whiteColor;
+            font-weight: 700;
+            background-color: $redColor;
+            border-radius: 20px;
+            color: $whiteColor;
+        }
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    .navbar {
+        .box-container {
+            .logo {
+                height: 45px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .navbar {
+        .box-container {
+            width: 100%;
+            .logo {
+                height: 50px;
+            }
+        }
+    }
+    .menu-btn{
+        background-color: $whiteColor !important;
+    }
+    .mobile-nav {
+        .nav-head-box {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            .logo {
+                width: 90px;
+            }
+        }
+
+    }
+
+    .href-item {
+        border: 1px solid $blackColor !important;
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        color: $blackColor !important;
+        margin: 8px 0;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+    .href-item:hover {
+        border: none !important;
+        background-color: $redColor;
+        color: $whiteColor !important;
+    }
+
+    .apply-btn {
+        margin: 0;
+        height: 45px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        background-color: $redColor;
+        border-radius: 8px;
+        color: $whiteColor;
+    }
+}
