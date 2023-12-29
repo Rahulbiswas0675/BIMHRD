@@ -15,12 +15,14 @@ $redColor : #E31E24;
 
 
 .joinus-component {
+    margin-top: -3.5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #F1F3ED;
     border-radius: 70px 70px 0px 0px;
+    position: relative;
 
     .joinus-container {
         width: 85%;
