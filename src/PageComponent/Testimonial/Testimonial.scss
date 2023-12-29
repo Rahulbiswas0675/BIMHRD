@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+.testimonial-component {
+    width: 100%;
+
+    .testimonial-container {
+        width: 100%;
+        margin: 3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .testimonial-left-box {
+            width: 35%;
+            padding: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .title {
+                margin: 0;
+                color: $blackColor;
+                font-family: $secendoryFont;
+                font-size: 60px;
+                font-weight: 500;
+                line-height: 103.1%;
+            }
+
+            .icon-box {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .icon {
+                    background-color: #EBEDE8;
+                    padding: 6px;
+                    font-size: 35px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .testimonial-right-box {
+            width: 65%;
+            height: 400px;
+            padding: 0rem 2rem;
+            display: flex;
+            align-items: center;
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+            position: relative;
+
+            .scroll-box {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+
+                .review-item {
+                    padding: 1.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 425px;
+                    height: 250px;
+                    border-radius: 12px;
+                    background: $whiteColor;
+                    box-shadow: 0px 0.775px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 1.862px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 3.506px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 6.254px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 11.698px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 28px 80px 0px rgba(0, 0, 0, 0.07);
+
+                    .queot {
+                        color: $redColor;
+                        font-size: 40px;
+                        transform: rotate(180deg);
+                    }
+
+                    .para {
+                        margin: 0;
+                        color: $blackColor;
+                        font-family: $primaryFont;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 155.6%;
+                    }
+
+                    .auth-box {
+                        display: flex;
+                        gap: 0.7rem;
+
+                        .userIcon {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 50%;
+                        }
+
+                        .text-box {
+                            .title {
+                                margin: 0;
+                                color: $blackColor;
+                                font-family: $primaryFont;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 155.6%;
+                            }
+
+                            .tag {
+                                margin: 0;
+                                color: #898989;
+                                font-family: $primaryFont;
+                                font-size: 13px;
+                                font-weight: 300;
+                                line-height: 155.6%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .testimonial-right-box::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width : 1660px) {
+    .testimonial-component {
+        .testimonial-container {
+            .testimonial-left-box {
+                width: 35%;
+                padding: 4rem;
+                .title {
+                    font-size: 48px;
+                }
+            }
+            .testimonial-right-box {
+                width: 65%;
+                height: 400px;
+                padding: 0rem 2rem;
+                .scroll-box {
+                    gap: 1.5rem;
+
+                    .review-item {
+                        width: 400px;
+                        height: 230px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .testimonial-component {
+        .testimonial-container {
+            .testimonial-left-box {
+                width: 35%;
+                padding: 4rem;
+                gap: 1.5rem;
+                .title {
+                    font-size: 40px;
+                }
+
+                .icon-box {
+                    gap: 1rem;
+                    .icon {
+                        font-size: 35px;
+                    }
+                }
+            }
+
+            .testimonial-right-box {
+                width: 65%;
+                height: 400px;
+                .scroll-box {
+                    gap: 1rem;
+                    .review-item {
+                        padding: 1.5rem;
+                        width: 380px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    .testimonial-component {
+        .testimonial-container {
+            .testimonial-left-box {
+                width: 35%;
+                padding: 2rem 3rem;
+                .title {
+                    font-size: 35px;
+                }
+            }
+
+            .testimonial-right-box {
+                width: 65%;
+                height: 300px;
+                .scroll-box {
+                    gap: 1rem;
+                    .review-item {
+                        padding: 1rem;
+                        width: 380px;
+                        height: 200px;
+                        .queot{
+                            font-size: 30px;
+                        }
+                        .para{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1080px) {
+    .testimonial-component {
+        .testimonial-container {
+            align-items: flex-start;
+            .testimonial-left-box {
+                width: 35%;
+                padding: 2rem;
+                .title {
+                    font-size: 35px;
+                }
+            }
+
+            .testimonial-right-box {
+                width: 65%;
+                height: 260px;
+                align-items: flex-start;
+                .scroll-box {
+                    gap: 1rem;
+                    .review-item {
+                        padding: 1rem;
+                        width: 380px;
+                        height: 200px;
+                        .queot{
+                            font-size: 30px;
+                        }
+                        .para{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
