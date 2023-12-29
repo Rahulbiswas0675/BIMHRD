@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+
+.message-components {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .message-container {
+        margin: 6rem 0;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-container {
+            width: 55%;
+
+            .title {
+                color: $blackColor;
+                font-family: $secendoryFont;
+                font-size: 40px;
+            }
+
+            .tag {
+                color: $blackColor;
+                font-family: $secendoryFont;
+                font-size: 64px;
+                font-weight: 700;
+            }
+
+            .para {
+                width: 95%;
+                color: $blackColor;
+                font-family: $primaryFont;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 183.4%;
+            }
+
+            .readmore-btn {
+                color: #0060AA;
+                font-family: $secendoryFont;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 700;
+            }
+        }
+
+        .right-container {
+            width: 45%;
+
+            .smsImg {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1660px) {
+    .message-components {
+        .message-container {
+            margin: 6rem 0;
+            width: 85%;
+            .left-container {
+                width: 56%;
+
+                .title {
+                    font-size: 40px;
+                }
+
+                .tag {
+                    font-size: 48px;
+                }
+
+                .para {
+                    width: 100%;
+                }
+            }
+
+            .right-container {
+                width: 44%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .message-components {
+        .message-container {
+            margin: 6rem 0;
+            width: 90%;
+            .left-container {
+                width: 56%;
+
+                .title {
+                    font-size: 40px;
+                }
+
+                .tag {
+                    font-size: 48px;
+                }
+
+                .para {
+                    width: 100%;
+                    font-size: 16px;
+                }
+
+                .readmore-btn {
+                    font-size: 20px;
+                }
+            }
+
+            .right-container {
+                width: 44%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .message-components {
+        .message-container {
+            .left-container {
+                width: 56%;
+
+                .title {
+                    font-size: 30px;
+                }
+
+                .tag {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .message-components {
+        .message-container {
+            .left-container {
+                width: 60%;
+
+                .title {
+                    font-size: 28px;
+                }
+
+                .tag {
+                    margin: 0;
+                    font-size: 30px;
+                }
+
+                .para {
+                    font-size: 14px;
+                }
+
+                .readmore-btn {
+                    font-size: 18px;
+                }
+            }
+
+            .right-container {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .message-components {
+        .message-container {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 1rem;
+            .left-container {
+                width: 100%;
+                text-align: center;
+                .title {
+                    font-size: 28px;
+                }
+
+                .tag {
+                    margin: 0;
+                    font-size: 30px;
+                }
+
+                .para {
+                    font-size: 16px;
+                }
+
+                .readmore-btn {
+                    font-size: 18px;
+                }
+            }
+
+            .right-container {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .smsImg{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
