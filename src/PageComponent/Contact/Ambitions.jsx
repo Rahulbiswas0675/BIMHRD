@@ -12,7 +12,7 @@ const schema = yup.object({
   checkbox: yup.string(),
 }).required();
 
-function Connect() {
+function Ambitions() {
 
   const {
     register,
@@ -24,7 +24,7 @@ function Connect() {
   const onSubmit = (data) => console.log(data)
 
   return (
-    <div className="contact-component">
+    <div className="contact-component" id='admitions'>
       <div className="contact-container">
         <img src={contactImg} alt="contactImg" className='contactImg' />
         <div className="form-container">
@@ -53,4 +53,4 @@ function Connect() {
   )
 }
 
-export default Connect
+export default Ambitions

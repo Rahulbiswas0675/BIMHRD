@@ -15,14 +15,14 @@ $redColor : #E31E24;
 
 
 
-.connected-component {
+.Research-component {
     width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .connected-container {
+    .Research-container {
         width: 150%;
         border-top-right-radius: 50%;
         border-top-left-radius: 50%;
@@ -32,7 +32,7 @@ $redColor : #E31E24;
         justify-content: center;
         align-items: center;
 
-        .connected-container-box {
+        .Research-container-box {
             width: 60%;
 
             .top-container {
@@ -186,7 +186,7 @@ $redColor : #E31E24;
     }
 
 
-    .connected-buttom-container {
+    .Research-buttom-container {
         width: 100%;
         position: relative;
 
@@ -250,10 +250,10 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width: 1750px) {
-    .connected-component {
-        .connected-container {
+    .Research-component {
+        .Research-container {
             width: 150%;
-            .connected-container-box {
+            .Research-container-box {
                 width: 60%;
                 .top-container {
                     .heading-box {
@@ -280,7 +280,7 @@ $redColor : #E31E24;
         }
     
     
-        .connected-buttom-container {
+        .Research-buttom-container {
             .buttom-container {
                 .text-box {
                     gap: 1.5rem;
@@ -306,9 +306,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width: 1660px) {
-    .connected-component {
-        .connected-container {
-            .connected-container-box {
+    .Research-component {
+        .Research-container {
+            .Research-container-box {
                 .top-container {
                     .heading-box {
                         gap: 2rem;
@@ -334,7 +334,7 @@ $redColor : #E31E24;
         }
     
     
-        .connected-buttom-container {
+        .Research-buttom-container {
             .buttom-container {
                 .text-box {
                     .title {
@@ -353,9 +353,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width: 1440px) {
-    .connected-component {
-        .connected-container {
-            .connected-container-box {
+    .Research-component {
+        .Research-container {
+            .Research-container-box {
                 .buttom-container {
                     .container-item {
                         .item-box-left {
@@ -388,7 +388,7 @@ $redColor : #E31E24;
                 }
             }
         }
-        .connected-buttom-container {
+        .Research-buttom-container {
             .buttom-container {
                 .text-box {
                     .title {
@@ -401,9 +401,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width: 1280px) {
-    .connected-component {
-        .connected-container {
-            .connected-container-box {
+    .Research-component {
+        .Research-container {
+            .Research-container-box {
                 .buttom-container {
                     .container-item {
                         padding: 4rem;
@@ -437,7 +437,7 @@ $redColor : #E31E24;
                 }
             }
         }
-        .connected-buttom-container {
+        .Research-buttom-container {
             .buttom-container {
                 .text-box {
                     .title {

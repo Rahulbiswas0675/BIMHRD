@@ -58,6 +58,9 @@ $primary_font : "'Montserrat', sans-serif";
             font-weight: 700;
             color: $whiteColor;
         }
+        .focus{
+            color: $redColor !important;
+        }
 
         .apply-btn {
             margin: 0;

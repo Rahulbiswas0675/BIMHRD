@@ -3,7 +3,7 @@ import { aboutPage } from '../../Datas/PagesData';
 
 function About() {
   return (
-    <div className="about-component">
+    <div className="about-component" id="about">
       <div className="about-container">
         <p className="paragraph">{aboutPage.paragraph1}</p>
         <p className="paragraph">{aboutPage.paragraph2}</p>

@@ -1,16 +1,16 @@
 import "./App.scss";
-import AppBar from "./Container/Navbar/AppBar";
-import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/AboutPage';
-import MessagePage from './Pages/MessagePage';
-import StreamPage from './Pages/StreamPage';
-import PlacementsPage from './Pages/PlacementsPage';
-import CampusAmbassadorPage from './Pages/CampusAmbassadorPage';
-import ContactPage from './Pages/ContactPage';
-import TestimonialPage from './Pages/TestimonialPage';
-import ConnectedPage from './Pages/ConnectedPage';
-import JoinusPage from './Pages/JoinusPage';
-import FooterPage from "./Pages/FooterPage";
+import AppBar from "./Container/Navbar/AppBar";                            //Navbar Container
+import HomePage from './Pages/HomePage';                                  //Home Section Component
+import AboutPage from './Pages/AboutPage';                               //About Section Component
+import MessagePage from './Pages/MessagePage';                          //Message Section Component
+import ProgramsPage from './Pages/ProgramsPage';                       //MBA Programs Section Component
+import PlacementsPage from './Pages/PlacementsPage';                  //Placements Section Component
+import CampusAmbassadorPage from './Pages/CampusAmbassadorPage';     //CampusAmbassador Section Component
+import AmbitionsPage from './Pages/AmbitionsPage';                  //Ambitions Section Component
+import TestimonialPage from './Pages/TestimonialPage';             //Review Section Component
+import ResearchPage from './Pages/ResearchPage';                  //Research Section Component
+import RecruitersPage from './Pages/RecruitersPage';             //Recruiters Section Component
+import FooterPage from "./Pages/FooterPage";                    //Footer & Contact Section Component
 
 function App() {
   return (
@@ -19,13 +19,13 @@ function App() {
       <HomePage/>
       <AboutPage/>
       <MessagePage/>
-      <StreamPage/>
+      <ProgramsPage/>
       <PlacementsPage/>
       <CampusAmbassadorPage/>
-      <ContactPage/>
+      <AmbitionsPage/>
       <TestimonialPage/>
-      <ConnectedPage/>
-      <JoinusPage/>
+      <ResearchPage/>
+      <RecruitersPage/>
       <FooterPage />
     </div>
   );

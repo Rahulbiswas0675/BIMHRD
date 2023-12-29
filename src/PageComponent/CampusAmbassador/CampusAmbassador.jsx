@@ -10,7 +10,7 @@ import hcl from '../../Assates/CampusingComapnys/hcl.png';
 
 function CampusAmbassador() {
   return (
-    <div className="capusambassador-component">
+    <div className="capusambassador-component" id='recruiters'>
       <div className="capusambassador-container">
           <img src={google} alt="google" className="icons" />
           <img src={ibm} alt="ibm" className="icons" />

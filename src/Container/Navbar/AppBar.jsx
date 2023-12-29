@@ -14,7 +14,7 @@ function AppBar() {
   const expand = "xl";
   const [scrollVal, setScrollVal] = useState(0);
   const [clsName, setClsName] = useState('nav-fixed');
-
+  const [itemName, setItemName] = useState()
   window.addEventListener("scroll", (event) => {
     setScrollVal(window.scrollY);
   });
@@ -46,7 +46,7 @@ function AppBar() {
             <Nav className="justify-content-end flex-grow-1 pe-3">
               {
                 navItems.map((item) => (
-                  <Nav.Link href={item.id} className='href-item' key={item.id} id={item.id}>{item.name}</Nav.Link>
+                  <Nav.Link href={item.id} className={`href-item ${itemName === item.name ? "focus" : null}`} key={item.id} onClick={()=> setItemName(item.name)}>{item.name}</Nav.Link>
                 ))
               }
             </Nav>

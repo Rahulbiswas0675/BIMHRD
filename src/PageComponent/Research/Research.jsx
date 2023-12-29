@@ -1,18 +1,18 @@
-import './Connected.scss';
+import './Research.scss';
 import buildImg from '../../Assates/Images/build.png';
 import logo from '../../Assates/Logo/logo4.png';
 import { MdArrowRightAlt } from "react-icons/md";
 
-function Connected() {
+function Research() {
   return (
-    <div className="connected-component">
-      <div className="connected-container">
+    <div className="Research-component" id='research'>
+      <div className="Research-container">
 
-        <div className="connected-container-box">
+        <div className="Research-container-box">
           <div className="top-container">
             <img src={logo} alt="logo" className='logo' />
             <div className="heading-box">
-              <h1 className="title">Stay Connected, Stay Inspired</h1>
+              <h1 className="title">Stay Research, Stay Inspired</h1>
               <h3 className="tag">Explore the Latest News and Events at BIMHRD</h3>
             </div>
           </div>
@@ -82,7 +82,7 @@ function Connected() {
           </div>
         </div>
       </div>
-      <div className="connected-buttom-container">
+      <div className="Research-buttom-container">
         <img src={buildImg} alt="buildImg" className="image" />
         <div className="buttom-container">
           <div className="text-box">
@@ -96,4 +96,4 @@ function Connected() {
   )
 }
 
-export default Connected;
+export default Research;

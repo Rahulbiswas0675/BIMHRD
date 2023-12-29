@@ -3,9 +3,9 @@ import studentImg from '../../Assates/Images/join.png';
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 
-function Joinus() {
+function Recruiters() {
   return (
-    <div className="joinus-component">
+    <div className="joinus-component" id='contactus'>
       <div className="joinus-container">
         <div className="left-container">
           <h1 className="title">Experience Excellence in Education and Empower <br /> Your Future at the BIMHRD Campus. </h1>
@@ -21,4 +21,4 @@ function Joinus() {
   )
 }
 
-export default Joinus
+export default Recruiters;
