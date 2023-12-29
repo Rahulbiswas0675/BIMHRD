@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway',
+sans-serif;
+$secendoryFont : 'Cormorant',
+serif;
+$ternaryFont : 'Red Hat Display',
+sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+
+
+
+
+.placement-component {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .placement-top-container {
+        margin: 5rem 0;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .item-box {
+            width: 328px;
+            height: 79px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem;
+            border-radius: 12px;
+            box-shadow: 0px 0.858px 2.214px 0px rgba(0, 0, 0, 0.03), 0px 2.062px 5.32px 0px rgba(0, 0, 0, 0.04), 0px 3.882px 10.017px 0px rgba(0, 0, 0, 0.05), 0px 6.924px 17.869px 0px rgba(0, 0, 0, 0.06), 0px 12.951px 33.422px 0px rgba(0, 0, 0, 0.07), 0px 31px 80px 0px rgba(0, 0, 0, 0.10);
+
+            .title {
+                margin: 0;
+                color: $blackColor;
+                font-family: $primaryFont;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .icon {
+                font-size: 40px;
+            }
+        }
+        .item-box:hover{
+            background-color: $redColor;
+            .title{
+                color: $whiteColor;
+            }
+            .icon{
+                color: $whiteColor;
+            }
+        }
+    }
+
+    .placement-buttom-container {
+        margin: 6rem 0;
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .buttom-left-container {
+            width: 45%;
+
+            .title {
+                color: $blackColor;
+                font-family: $secendoryFont;
+                font-size: 64px;
+                font-weight: 600;
+                line-height: 117.6%;
+            }
+
+            .tag {
+                color: $blackColor;
+                font-family: $secendoryFont;
+                font-size: 64px;
+                font-weight: 600;
+                line-height: 117.6%;
+            }
+
+            .para {
+                margin: 0;
+                margin-top: 2rem;
+                color: $blackColor;
+                font-family: $primaryFont;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 183.4%;
+            }
+
+            .readmore-btn {
+                margin: 0;
+                color: $redColor;
+                font-family: $secendoryFont;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 700;
+            }
+        }
+
+        .buttom-right-container {
+            width: 45%;
+
+            .right-item-box {
+                width: 100%;
+                margin-top: 0.3rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem;
+                border-bottom: 1px solid #D6D6D6;
+
+                .title {
+                    margin: 0;
+                    color: $redColor;
+                    font-family: $ternaryFont;
+                    font-size: 64px;
+                    font-weight: 700;
+                }
+
+                .tag {
+                    margin: 0;
+                    color: $redColor;
+                    font-family: $ternaryFont;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1660px) {
+    .placement-component {
+        .placement-top-container {
+            .item-box {
+                width: 250px;
+                height: 70px;
+                gap: 0.5rem;
+                .title {
+                    font-size: 16px;
+                }
+                .icon {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .placement-buttom-container {
+            margin: 3rem 0;
+            width: 80%;
+            .buttom-left-container {
+                width: 45%;
+                .title {
+                    font-size: 48px;
+                }
+
+                .tag {
+                    font-size: 48px;
+                }
+
+                .para {
+                    font-size: 18px;
+                }
+
+                .readmore-btn {
+                    margin: 0;
+                    color: $redColor;
+                    font-family: $secendoryFont;
+                    font-size: 20px;
+                }
+            }
+
+            .buttom-right-container {
+                width: 45%;
+
+                .right-item-box {
+                    .title {
+                        font-size: 48px;
+                    }
+
+                    .tag {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .placement-component {
+        .placement-top-container {
+            width: 95%;
+            .item-box {
+                width: 230px;
+                height: 70px;
+                gap: 0.5rem;
+                .title {
+                    font-size: 14px;
+                }
+                .icon {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .placement-buttom-container {
+            margin: 2rem 0;
+            width: 85%;
+        }
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    .placement-component {
+        .placement-top-container {
+            width: 95%;
+            .item-box {
+                width: 19%;
+                height: 70px;
+                .title {
+                    font-size: 14px;
+                }
+                .icon {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .placement-buttom-container {
+            margin: 2rem 0;
+            width: 85%;
+            .buttom-left-container {
+                width: 47%;
+                .title {
+                    font-size: 30px;
+                }
+
+                .tag {
+                    font-size: 30px;
+                }
+
+                .para {
+                    margin: 0;
+                    font-size: 16px;
+                }
+
+                .readmore-btn {
+                    font-size: 18px;
+                }
+            }
+
+            .buttom-right-container {
+                width: 47%;
+
+                .right-item-box {
+                    .title {
+                        font-size: 30px;
+                    }
+
+                    .tag {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1080px) {
+    .placement-component {
+        .placement-buttom-container {
+            margin: 2rem 0;
+            width: 90%;
+            .buttom-left-container {
+                width: 47%;
+                .title {
+                    font-size: 28px;
+                }
+
+                .tag {
+                    font-size: 28px;
+                }
+
+                .para {
+                    margin: 0;
+                    font-size: 14px;
+                }
+
+                .readmore-btn {
+                    font-size: 16px;
+                }
+            }
+
+            .buttom-right-container {
+                width: 47%;
+
+                .right-item-box {
+                    .title {
+                        font-size: 28px;
+                    }
+
+                    .tag {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

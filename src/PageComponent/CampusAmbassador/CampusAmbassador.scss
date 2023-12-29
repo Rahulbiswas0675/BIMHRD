@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
+
+$primaryFont : 'Raleway', sans-serif;
+$secendoryFont : 'Cormorant', serif;
+$ternaryFont : 'Red Hat Display', sans-serif;
+
+$whiteColor : #FFF;
+$violetColor : #3A3285;
+$blackColor : #000;
+$lightBlackColor : rgba(31, 31, 31, 0.77);
+$redColor : #E31E24;
+
+.capusambassador-component{
+    width: 100%;
+    .capusambassador-container{
+        margin: 2rem 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .icons{
+            width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width : 1660px) {
+    .capusambassador-component{
+        .capusambassador-container{
+            .icons{
+                width: 130px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .capusambassador-component{
+        .capusambassador-container{
+            .icons{
+                width: 100px;
+            }
+        }
+    }
+}
