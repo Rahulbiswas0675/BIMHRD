@@ -5,10 +5,10 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 function Research() {
   return (
-    <div className="Research-component" id='research'>
-      <div className="Research-container">
+    <div className="research-component" id='research'>
+      <div className="research-container">
 
-        <div className="Research-container-box">
+        <div className="research-container-box">
           <div className="top-container">
             <img src={logo} alt="logo" className='logo' />
             <div className="heading-box">
@@ -82,7 +82,7 @@ function Research() {
           </div>
         </div>
       </div>
-      <div className="Research-buttom-container">
+      <div className="research-buttom-container">
         <img src={buildImg} alt="buildImg" className="image" />
         <div className="buttom-container">
           <div className="text-box">

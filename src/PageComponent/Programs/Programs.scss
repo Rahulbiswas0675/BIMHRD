@@ -13,15 +13,15 @@ $blackColor : #000;
 $lightBlackColor : rgba(31, 31, 31, 0.77);
 $redColor : #E31E24;
 
-.Programs-components {
+.programs-components {
     width: 100%;
     position: relative;
 
-    .ProgramsImg {
+    .programsImg {
         width: 100%;
     }
 
-    .Programs-container {
+    .programs-container {
         position: absolute;
         top: 0;
         width: 100%;
@@ -30,7 +30,7 @@ $redColor : #E31E24;
         display: flex;
         justify-content: space-between;
 
-        .Programs-item-box {
+        .programs-item-box {
             width: 33.3%;
             height: 100%;
             display: flex;
@@ -73,9 +73,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1660px) {
-    .Programs-components {
-        .Programs-container {
-            .Programs-item-box {
+    .programs-components {
+        .programs-container {
+            .programs-item-box {
                 .title {
                     font-size: 48px;
                 }
@@ -93,9 +93,9 @@ $redColor : #E31E24;
     }
 }
 @media screen and (max-width : 1440px) {
-    .Programs-components {
-        .Programs-container {
-            .Programs-item-box {
+    .programs-components {
+        .programs-container {
+            .programs-item-box {
                 .title {
                     font-size: 40px;
                 }
@@ -114,9 +114,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1080px) {
-    .Programs-components {
-        .Programs-container {
-            .Programs-item-box {
+    .programs-components {
+        .programs-container {
+            .programs-item-box {
                 .title {
                     font-size: 30px;
                 }
@@ -135,9 +135,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 980px) {
-    .Programs-components {
-        .Programs-container {
-            .Programs-item-box {
+    .programs-components {
+        .programs-container {
+            .programs-item-box {
                 .title {
                     font-size: 28px;
                 }

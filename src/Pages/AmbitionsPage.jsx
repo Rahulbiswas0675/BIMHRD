@@ -1,4 +1,4 @@
-import Ambitions from '../PageComponent/Contact/Ambitions';
+import Ambitions from '../PageComponent/Ambitions/Ambitions';
 
 function AmbitionsPage() {
   return (

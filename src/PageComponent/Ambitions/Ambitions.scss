@@ -16,16 +16,16 @@ $redColor : #E31E24;
 
 
 
-.contact-component {
+.ambitions-component {
     width: 100%;
     background: linear-gradient(90deg, #3A3285 3.08%, #E31E24 98.72%);
 
-    .contact-container {
+    .ambitions-container {
         width: 100%;
         display: flex;
         justify-content: space-between;
 
-        .contactImg {
+        .ambitionsImg {
             width: 46%;
         }
 
@@ -123,9 +123,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1660px) {
-    .contact-component {
-        .contact-container {
-            .contactImg {
+    .ambitions-component {
+        .ambitions-container {
+            .ambitionsImg {
                 width: 40%;
             }
 
@@ -167,11 +167,11 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1440px) {
-    .contact-component {
-        .contact-container {
+    .ambitions-component {
+        .ambitions-container {
             margin-top: 5rem;
 
-            .contactImg {
+            .ambitionsImg {
                 width: 40%;
             }
 
@@ -215,9 +215,9 @@ $redColor : #E31E24;
 
 
 @media screen and (max-width : 1280px) {
-    .contact-component {
-        .contact-container {
-            .contactImg {
+    .ambitions-component {
+        .ambitions-container {
+            .ambitionsImg {
                 width: 35%;
             }
 
@@ -262,9 +262,9 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1200px) {
-    .contact-component {
-        .contact-container {
-            .contactImg {
+    .ambitions-component {
+        .ambitions-container {
+            .ambitionsImg {
                 width: 40%;
             }
 
@@ -292,11 +292,11 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1080px) {
-    .contact-component {
-        .contact-container {
+    .ambitions-component {
+        .ambitions-container {
             margin: 0;
 
-            .contactImg {
+            .ambitionsImg {
                 width: 45%;
             }
 

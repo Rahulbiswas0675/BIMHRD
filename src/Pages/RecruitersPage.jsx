@@ -1,4 +1,4 @@
-import Recruiters from '../PageComponent/Joinus/Recruiters';
+import Recruiters from '../PageComponent/Recruiters/Recruiters';
 
 function RecruitersPage() {
   return (

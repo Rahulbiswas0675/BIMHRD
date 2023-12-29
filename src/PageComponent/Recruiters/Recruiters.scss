@@ -14,7 +14,7 @@ $lightBlackColor : rgba(31, 31, 31, 0.77);
 $redColor : #E31E24;
 
 
-.joinus-component {
+.recruiters-component {
     margin-top: -3.5rem;
     width: 100%;
     display: flex;
@@ -24,7 +24,7 @@ $redColor : #E31E24;
     border-radius: 70px 70px 0px 0px;
     position: relative;
 
-    .joinus-container {
+    .recruiters-container {
         width: 85%;
         padding-top: 2rem;
         display: flex;
@@ -91,8 +91,8 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1660px) {
-    .joinus-component {
-        .joinus-container {
+    .recruiters-component {
+        .recruiters-container {
             width: 90%;
             .left-container {
                 .title {
@@ -107,8 +107,8 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1440px) {
-    .joinus-component {
-        .joinus-container {
+    .recruiters-component {
+        .recruiters-container {
             .left-container {
                 width: 65%;
                 .title {
@@ -130,8 +130,8 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1280px) {
-    .joinus-component {
-        .joinus-container {
+    .recruiters-component {
+        .recruiters-container {
             .left-container {
                 width: 60%;
                 .title {
@@ -155,8 +155,8 @@ $redColor : #E31E24;
 }
 
 @media screen and (max-width : 1080px) {
-    .joinus-component {
-        .joinus-container {
+    .recruiters-component {
+        .recruiters-container {
             .left-container {
                 width: 55%;
                 .title {
