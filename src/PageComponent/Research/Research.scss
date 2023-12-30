@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Raleway&family=Red+Hat+Display&display=swap');
 
-$primaryFont : 'Raleway',
-sans-serif;
-$secendoryFont : 'Cormorant',
-serif;
-$ternaryFont : 'Red Hat Display',
-sans-serif;
-
+$primaryFont : 'Raleway',sans-serif;
+$secendoryFont : 'Cormorant',serif;
+$ternaryFont : 'Red Hat Display',sans-serif;
 $whiteColor : #FFF;
 $violetColor : #3A3285;
 $blackColor : #000;
@@ -442,6 +438,54 @@ $redColor : #E31E24;
                 .text-box {
                     .title {
                         font-size: 48px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .research-component {
+        .research-container {
+            .research-container-box {
+                .buttom-container {
+                    .container-item {
+                        .item-box-left {
+                            width: 48%;
+                            .box-item-left {
+                                .small-tag {
+                                    font-size: 18px;
+                                }
+                            }
+                            .box-item-right {
+                                .bold-tag {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                        .item-box-right {
+                            width: 48%;
+                            .box-item-left {
+                                .small-tag {
+                                    font-size: 18px;
+                                }
+                            }
+                            .box-item-right {
+                                .bold-tag {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .research-buttom-container {
+            .buttom-container {
+                .text-box {
+                    .title {
+                        font-size: 38px;
                     }
                 }
             }

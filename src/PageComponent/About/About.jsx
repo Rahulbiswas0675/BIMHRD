@@ -8,7 +8,7 @@ function About() {
         <p className="paragraph">{aboutPage.paragraph1}</p>
         <p className="paragraph">{aboutPage.paragraph2}</p>
         <p className="paragraph highlight">{aboutPage.paragraph3}</p>
-        <a href="" className='hrefBtn'>{aboutPage.btnTitle}</a>
+        <a href={aboutPage.btnLink} className='hrefBtn'>{aboutPage.btnTitle}</a>
       </div>
     </div>
   )

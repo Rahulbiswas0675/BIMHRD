@@ -5,7 +5,7 @@ export const navItems = [
         link : "/about",
     },
     {
-        id : "#mbaprograms",
+        id : "#programs",
         name : "MBA Programs",
         link : "/programs",
     },
@@ -25,7 +25,7 @@ export const navItems = [
         link : "/recruiters",
     },
     {
-        id : "#contactus",
+        id : "#contact",
         name : "Contact Us",
         link : "/contact",
     }
